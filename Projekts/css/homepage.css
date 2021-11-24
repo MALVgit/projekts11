@@ -1,0 +1,85 @@
+/* THIS IS FOR ALL PAGES CSS */
+  
+    /* --------------- Font, text, images and background changes for ALL pages--------------- */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;       
+  background-color: #cccccc;                      /* Background */
+  background-image: url(../atteli/background.jpg);
+  background-size: cover;                               
+  background-attachment: fixed;   
+}
+
+p {
+  letter-spacing: 1px;  /* This will change for all pages text spacing */
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+    /* --------------- Top novigation bar style code --------------- */
+.topnav {
+  background-color: rgb(95, 95, 95);   
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  float: left;
+  padding: 14px 30px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+/* These are timers for color change at top bar */
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
+  -ms-transition:     color 0.5s;
+  -o-transition:      color 0.5s;
+  transition:         color 0.5s;
+}
+  
+.topnav a:hover { /* Colour change when you move cursor on button */
+  background-color: #ddd;
+  color: black;
+}
+  
+.topnav a.active { /* For page, which button is currently active */
+  background-color: #5a98d1;
+  color: white;
+}
+
+
+
+    /* --------------- Creates the white box in middle --------------- */
+.box{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;      
+}
+    
+.tbox{
+  background: #fff;
+  margin: 6px;
+  margin-bottom: 50px;
+  width: 850px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+  box-shadow: 8px 15px #00000065;      /* Shadows under white box */
+}
+

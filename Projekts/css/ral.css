@@ -1,0 +1,45 @@
+/* THIS IS FOR RAL_MENU.HTML ONLY CSS */
+
+
+    /* --------------- Creates boxes for register and login button --------------- */
+.block {
+  color: white;
+  background-color: rgb(26, 100, 143);
+  text-align: center;
+  text-decoration: none; 
+  padding: 14px 28px;
+  font-size: 24px;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+  
+.block:hover {
+  background-color: rgb(177, 177, 177);
+  color: black;
+/* These are timers for color change for log/reg button */
+  -webkit-transition: color 1.5s;
+  -moz-transition:    color 1.5s;
+  -ms-transition:     color 1.5s;
+  -o-transition:      color 1.5s;
+  transition:         color 1.5s;
+
+  }
+
+
+  
+    /* --------------- Style code for forgot password --------------- */
+.forg_pass {
+  color: rgb(20, 19, 19);
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;  
+  margin: 0 auto;
+    
+}
